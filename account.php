@@ -10,7 +10,4 @@ if (mysqli_connect_errno()) {
         }
 print "<br>Successfully connected to MySQL.<br>";
 mysqli_select_db ($db, $db_project);
-
-//new changes made
-
 ?>
